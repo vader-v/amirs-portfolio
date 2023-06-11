@@ -13,6 +13,25 @@ html, body {
     /*Avoid flicker on slides transitions for mobile phones #336 */
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+button {
+    color: #f89a83;
+    background-color: #292D3E;
+    border: 1px solid #75ace6;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height: 32px;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+}
+button:hover {
+    transform: scale(1.1);
+}
+p.about-me {
+    color: #e68b75;
+    font-style: bold;
+    font-size: 23px;
+}
 #superContainer {
     height: 100%;
     position: relative;
