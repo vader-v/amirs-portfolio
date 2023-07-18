@@ -28,10 +28,10 @@ button:hover {
     transform: scale(1.1);
 }
 p.about-me {
-    color: #ff3603;
+    color: #ffffff;
     font-style: bold;
     font-size: 23px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
 }
 #superContainer {
     height: 100%;
